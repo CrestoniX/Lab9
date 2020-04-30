@@ -1,4 +1,4 @@
-// Copyright 2020 Kondr11
+// Copyright 2020 by CrestoniX
 
 #include <header.hpp>
 #include <gumbo.h>

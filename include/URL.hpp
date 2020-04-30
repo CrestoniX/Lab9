@@ -1,4 +1,4 @@
-// Copyright 2020 Kondr11
+// Copyright 2020 by CrestoniX
 
 #ifndef INCLUDE_URL_HPP_
 #define INCLUDE_URL_HPP_

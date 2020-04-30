@@ -1,1 +1,994 @@
-Visual Studio not found at: D:\Microsoft Visual Studio\2017\Community Configure
+/home/kirill2000/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/kirill2000/LABA9
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/kirill2000/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 9b2c9d4 | Config-ID: 48401e9 ]
+-- [hunter] GTEST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.8.0-hunter-p11)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost (component: program_options)
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/Build
+Scanning dependencies of target Boost-program_options
+[ 12%] Creating directories for 'Boost-program_options'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-program_options'
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/kirill2000/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No patch step for 'Boost-program_options'
+[ 50%] Performing update step for 'Boost-program_options'
+[ 62%] Performing configure step for 'Boost-program_options'
+Dummy patch command
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam for gcc...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To generate header files, run:
+
+    ./b2 headers
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/
+
+[ 75%] Performing build step for 'Boost-program_options'
+Performing configuration checks
+
+    - default address-model    : 64-bit
+    - default architecture     : x86
+
+Building the Boost C++ Libraries.
+
+
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 1056 targets...
+...updating 43 targets...
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/split.o
+gcc.archive bin.v2/libs/program_options/build/gcc-7.5.0/debug/link-static/threading-multi/visibility-hidden/libboost_program_options-mt-d-x64.a
+common.copy /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/Source/stage/lib/libboost_program_options-mt-d-x64.a
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/split.o
+gcc.archive bin.v2/libs/program_options/build/gcc-7.5.0/release/link-static/threading-multi/visibility-hidden/libboost_program_options-mt-x64.a
+common.copy /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/Source/stage/lib/libboost_program_options-mt-x64.a
+...updated 43 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/Source
+
+The following directory should be added to linker library paths:
+
+    /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options/Source/stage/lib
+
+[ 87%] Performing install step for 'Boost-program_options'
+Performing configuration checks
+
+    - default address-model    : 64-bit
+    - default architecture     : x86
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-program_options'
+[100%] Built target Boost-program_options
+-- [hunter] Build step successful (dir: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Boost/__program_options)
+-- [hunter] Cache saved: /home/kirill2000/.hunter/_Base/Cache/raw/ce7e5b15c70edc0e72e825f9fb9026d3eba63a52.tar.bz2
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+--   thread
+--   program_options
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- [hunter] BEAST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.0.0-b84-hunter-0)
+-- [hunter] Building Beast
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Build
+Scanning dependencies of target Beast-Release
+[  6%] Creating directories for 'Beast-Release'
+[ 12%] Performing download step (download, verify and extract) for 'Beast-Release'
+-- Downloading...
+   dst='/home/kirill2000/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/Beast/archive/v1.0.0-b84-hunter-0.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'Beast-Release'
+[ 25%] No update step for 'Beast-Release'
+[ 31%] Performing configure step for 'Beast-Release'
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- [hunter] HUNTER_ROOT: /home/kirill2000/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 9b2c9d4 | Config-ID: 48401e9 ]
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Build/Beast-Release-prefix/src/Beast-Release-build
+[ 37%] Performing build step for 'Beast-Release'
+[ 43%] Performing install step for 'Beast-Release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/option.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/pausation.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/utf8_checker.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/pmd_extension.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/frame.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/mask.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/hybi13.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/type_traits.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/ssl.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/stream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/teardown.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/error.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/stream.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/handshake.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/ssl.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/ping.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/accept.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/read.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/write.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/rfc6455.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/close.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/fail.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/teardown.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/error.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/rfc6455.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/config.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/basic_file_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/basic_dynamic_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/rfc7230.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/field.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/rfc7230.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/chunk_encode.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/basic_parser.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/type_traits.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/basic_parsed_list.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/verb.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/message.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/chunk_encode.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/write.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/serializer.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/buffer_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/empty_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/basic_parser.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/file_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/fields.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/status.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/error.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/type_traits.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/span_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/parser.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/string_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/dynamic_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/vector_body.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/read.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/parser.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/fields.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/message.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/serializer.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/chunk_encode.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/read.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/write.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/field.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/file_body_win32.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/status.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/verb.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/basic_parser.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/rfc7230.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/error.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/version.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/span.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/async_result.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/sha1.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/varint.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/empty_base_optimization.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/config.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/static_string.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/base64.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/in_place_init.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/bind_handler.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/static_ostream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/integer_sequence.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/clamp.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/cpu_info.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/ostream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/type_traits.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/buffers_ref.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/drain_buffer.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffers_adapter.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_base.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/flat_buffer.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/flat_static_buffer.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/handler_alloc.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/static_string.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/bind_handler.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_posix.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/consuming_buffers.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/read_size.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/multi_buffer.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/static_buffer.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffered_read_stream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/string.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/string_param.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/handler_ptr.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_stdio.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/ostream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/error.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/type_traits.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_win32.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffer_cat.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffer_prefix.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/file_posix.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/static_buffer.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffer_prefix.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/handler_ptr.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffer_cat.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/static_string.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffered_read_stream.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/file_win32.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/file_stdio.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/multi_buffer.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffers_adapter.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/consuming_buffers.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/flat_static_buffer.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/string_param.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/flat_buffer.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/read_size.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/inflate_stream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/inflate_stream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/window.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/ranges.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/deflate_stream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/bitstream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/zlib.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/deflate_stream.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/error.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/impl
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/impl/error.ipp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/lib/cmake/Beast/BeastConfig.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/lib/cmake/Beast/BeastConfigVersion.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/lib/cmake/Beast/BeastTargets.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/args.cmake
+[ 50%] Completed 'Beast-Release'
+[ 50%] Built target Beast-Release
+Scanning dependencies of target Beast-Debug
+[ 56%] Creating directories for 'Beast-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'Beast-Debug'
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/kirill2000/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+  SHA1='4268caa6c044fc8180d36d918aa731ffa931380d'
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No patch step for 'Beast-Debug'
+[ 75%] No update step for 'Beast-Debug'
+[ 81%] Performing configure step for 'Beast-Debug'
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- [hunter] HUNTER_ROOT: /home/kirill2000/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 9b2c9d4 | Config-ID: 48401e9 ]
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.70.0-p0)
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Build/Beast-Debug-prefix/src/Beast-Debug-build
+[ 87%] Performing build step for 'Beast-Debug'
+[ 93%] Performing install step for 'Beast-Debug'
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/option.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/pausation.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/utf8_checker.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/pmd_extension.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/frame.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/mask.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/hybi13.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/detail/type_traits.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/ssl.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/stream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/teardown.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/error.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/stream.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/handshake.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/ssl.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/ping.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/accept.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/read.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/write.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/rfc6455.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/close.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/fail.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/teardown.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/impl/error.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket/rfc6455.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/config.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/basic_file_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/basic_dynamic_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/rfc7230.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/field.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/rfc7230.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/chunk_encode.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/basic_parser.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/type_traits.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/detail/basic_parsed_list.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/verb.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/message.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/chunk_encode.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/write.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/serializer.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/buffer_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/empty_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/basic_parser.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/file_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/fields.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/status.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/error.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/type_traits.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/span_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/parser.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/string_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/dynamic_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/vector_body.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/read.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/parser.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/fields.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/message.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/serializer.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/chunk_encode.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/read.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/write.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/field.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/file_body_win32.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/status.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/verb.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/basic_parser.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/rfc7230.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http/impl/error.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/version.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/span.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/async_result.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/sha1.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/varint.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/empty_base_optimization.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/config.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/static_string.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/base64.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/in_place_init.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/bind_handler.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/static_ostream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/integer_sequence.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/clamp.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/cpu_info.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/ostream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/type_traits.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/detail/buffers_ref.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/drain_buffer.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffers_adapter.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_base.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/flat_buffer.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/flat_static_buffer.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/handler_alloc.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/static_string.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/bind_handler.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_posix.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/consuming_buffers.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/read_size.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/multi_buffer.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/static_buffer.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffered_read_stream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/string.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/string_param.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/handler_ptr.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_stdio.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/ostream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/error.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/type_traits.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/file_win32.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffer_cat.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/buffer_prefix.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/file_posix.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/static_buffer.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffer_prefix.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/handler_ptr.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffer_cat.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/static_string.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffered_read_stream.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/file_win32.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/file_stdio.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/multi_buffer.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/buffers_adapter.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/consuming_buffers.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/flat_static_buffer.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/string_param.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/flat_buffer.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/core/impl/read_size.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/http.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/websocket.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/inflate_stream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/inflate_stream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/window.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/ranges.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/deflate_stream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/detail/bitstream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/zlib.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/deflate_stream.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/error.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/impl
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/include/beast/zlib/impl/error.ipp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/lib/cmake/Beast/BeastConfig.cmake
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/lib/cmake/Beast/BeastConfigVersion.cmake
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/Install/lib/cmake/Beast/BeastTargets.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast/args.cmake
+[100%] Completed 'Beast-Debug'
+[100%] Built target Beast-Debug
+-- [hunter] Build step successful (dir: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/Beast)
+-- [hunter] Cache saved: /home/kirill2000/.hunter/_Base/Cache/raw/caeddca75c61f012d4819d79a16b8e387f21dd71.tar.bz2
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   system
+-- [hunter] GUMBO_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 0.10.1)
+-- [hunter] Building gumbo
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Build
+Scanning dependencies of target gumbo-Release
+[  6%] Creating directories for 'gumbo-Release'
+[ 12%] Performing download step (download, verify and extract) for 'gumbo-Release'
+-- Downloading...
+   dst='/home/kirill2000/.hunter/_Base/Download/gumbo/0.10.1/0b060d7/hunter-0.10.1.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/gumbo-parser/archive/hunter-0.10.1.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/gumbo/0.10.1/0b060d7/hunter-0.10.1.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/gumbo/0.10.1/0b060d7/hunter-0.10.1.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'gumbo-Release'
+[ 25%] No update step for 'gumbo-Release'
+[ 31%] Performing configure step for 'gumbo-Release'
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Build/gumbo-Release-prefix/src/gumbo-Release-build
+[ 37%] Performing build step for 'gumbo-Release'
+Scanning dependencies of target gumbo
+[  8%] Building C object CMakeFiles/gumbo.dir/src/attribute.c.o
+[ 16%] Building C object CMakeFiles/gumbo.dir/src/error.c.o
+[ 25%] Building C object CMakeFiles/gumbo.dir/src/parser.c.o
+[ 33%] Building C object CMakeFiles/gumbo.dir/src/char_ref.c.o
+[ 41%] Building C object CMakeFiles/gumbo.dir/src/string_buffer.c.o
+[ 50%] Building C object CMakeFiles/gumbo.dir/src/string_piece.c.o
+[ 58%] Building C object CMakeFiles/gumbo.dir/src/tag.c.o
+[ 66%] Building C object CMakeFiles/gumbo.dir/src/tokenizer.c.o
+[ 75%] Building C object CMakeFiles/gumbo.dir/src/utf8.c.o
+[ 83%] Building C object CMakeFiles/gumbo.dir/src/util.c.o
+[ 91%] Building C object CMakeFiles/gumbo.dir/src/vector.c.o
+[100%] Linking C static library libgumbo.a
+[100%] Built target gumbo
+[ 43%] Performing install step for 'gumbo-Release'
+[100%] Built target gumbo
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/libgumbo.a
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/attribute.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/char_ref.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/error.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/gumbo.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/insertion_mode.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/parser.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/string_buffer.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/string_piece.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_enum.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_gperf.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_sizes.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_strings.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tokenizer.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tokenizer_states.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/token_type.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/utf8.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/util.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/vector.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboConfig.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboConfigVersion.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboTargets.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboTargets-release.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/args.cmake
+[ 50%] Completed 'gumbo-Release'
+[ 50%] Built target gumbo-Release
+Scanning dependencies of target gumbo-Debug
+[ 56%] Creating directories for 'gumbo-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'gumbo-Debug'
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/gumbo/0.10.1/0b060d7/hunter-0.10.1.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/kirill2000/.hunter/_Base/Download/gumbo/0.10.1/0b060d7/hunter-0.10.1.tar.gz'
+  SHA1='0b060d7b67f605fc2c06a2c474fbd00ad5c48b18'
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/gumbo/0.10.1/0b060d7/hunter-0.10.1.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No patch step for 'gumbo-Debug'
+[ 75%] No update step for 'gumbo-Debug'
+[ 81%] Performing configure step for 'gumbo-Debug'
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Build/gumbo-Debug-prefix/src/gumbo-Debug-build
+[ 87%] Performing build step for 'gumbo-Debug'
+Scanning dependencies of target gumbo
+[  8%] Building C object CMakeFiles/gumbo.dir/src/attribute.c.o
+[ 16%] Building C object CMakeFiles/gumbo.dir/src/error.c.o
+[ 25%] Building C object CMakeFiles/gumbo.dir/src/char_ref.c.o
+[ 33%] Building C object CMakeFiles/gumbo.dir/src/parser.c.o
+[ 41%] Building C object CMakeFiles/gumbo.dir/src/string_buffer.c.o
+[ 50%] Building C object CMakeFiles/gumbo.dir/src/string_piece.c.o
+[ 58%] Building C object CMakeFiles/gumbo.dir/src/tag.c.o
+[ 66%] Building C object CMakeFiles/gumbo.dir/src/tokenizer.c.o
+[ 75%] Building C object CMakeFiles/gumbo.dir/src/utf8.c.o
+[ 83%] Building C object CMakeFiles/gumbo.dir/src/util.c.o
+[ 91%] Building C object CMakeFiles/gumbo.dir/src/vector.c.o
+[100%] Linking C static library libgumbod.a
+[100%] Built target gumbo
+[ 93%] Performing install step for 'gumbo-Debug'
+[100%] Built target gumbo
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/libgumbod.a
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/attribute.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/char_ref.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/error.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/gumbo.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/insertion_mode.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/parser.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/string_buffer.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/string_piece.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_enum.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_gperf.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_sizes.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tag_strings.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tokenizer.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/tokenizer_states.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/token_type.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/utf8.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/util.h
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/include/vector.h
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboConfig.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboConfigVersion.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboTargets.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/Install/lib/cmake/gumbo/gumboTargets-debug.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo/args.cmake
+[100%] Completed 'gumbo-Debug'
+[100%] Built target gumbo-Debug
+-- [hunter] Build step successful (dir: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/gumbo)
+-- [hunter] Cache saved: /home/kirill2000/.hunter/_Base/Cache/raw/a6170cb4730d55938d697edaba544fb5d85ee43b.tar.bz2
+-- [hunter] THREAD-POOL-CPP_ROOT: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install (ver.: 1.1.0)
+-- [hunter] Building thread-pool-cpp
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Build
+Scanning dependencies of target thread-pool-cpp-Release
+[  6%] Creating directories for 'thread-pool-cpp-Release'
+[ 12%] Performing download step (download, verify and extract) for 'thread-pool-cpp-Release'
+-- Downloading...
+   dst='/home/kirill2000/.hunter/_Base/Download/thread-pool-cpp/1.1.0/52c345c/v1.1.0.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/thread-pool-cpp/archive/v1.1.0.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/thread-pool-cpp/1.1.0/52c345c/v1.1.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/thread-pool-cpp/1.1.0/52c345c/v1.1.0.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'thread-pool-cpp-Release'
+[ 25%] No update step for 'thread-pool-cpp-Release'
+[ 31%] Performing configure step for 'thread-pool-cpp-Release'
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test THREAD_POOL_HAS_THREAD_LOCAL_STORAGE
+-- Performing Test THREAD_POOL_HAS_THREAD_LOCAL_STORAGE - Success
+THREAD_POOL_HAS_THREAD_LOCAL_STORAGE: 1
+CXX_STANDARD is .......... 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Build/thread-pool-cpp-Release-prefix/src/thread-pool-cpp-Release-build
+[ 37%] Performing build step for 'thread-pool-cpp-Release'
+[ 43%] Performing install step for 'thread-pool-cpp-Release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/thread_pool.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/worker.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/fixed_function.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/mpsc_bounded_queue.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/lib/cmake/thread-pool-cpp/thread-pool-cppConfig.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/lib/cmake/thread-pool-cpp/thread-pool-cppConfigVersion.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/lib/cmake/thread-pool-cpp/thread-pool-cppTargets.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/args.cmake
+[ 50%] Completed 'thread-pool-cpp-Release'
+[ 50%] Built target thread-pool-cpp-Release
+Scanning dependencies of target thread-pool-cpp-Debug
+[ 56%] Creating directories for 'thread-pool-cpp-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'thread-pool-cpp-Debug'
+-- verifying file...
+       file='/home/kirill2000/.hunter/_Base/Download/thread-pool-cpp/1.1.0/52c345c/v1.1.0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/kirill2000/.hunter/_Base/Download/thread-pool-cpp/1.1.0/52c345c/v1.1.0.tar.gz'
+  SHA1='52c345cb9f0f3e43d0c4760462784b0180f5efe8'
+-- extracting...
+     src='/home/kirill2000/.hunter/_Base/Download/thread-pool-cpp/1.1.0/52c345c/v1.1.0.tar.gz'
+     dst='/home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No patch step for 'thread-pool-cpp-Debug'
+[ 75%] No update step for 'thread-pool-cpp-Debug'
+[ 81%] Performing configure step for 'thread-pool-cpp-Debug'
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/cache.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test THREAD_POOL_HAS_THREAD_LOCAL_STORAGE
+-- Performing Test THREAD_POOL_HAS_THREAD_LOCAL_STORAGE - Success
+THREAD_POOL_HAS_THREAD_LOCAL_STORAGE: 1
+CXX_STANDARD is .......... 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Build/thread-pool-cpp-Debug-prefix/src/thread-pool-cpp-Debug-build
+[ 87%] Performing build step for 'thread-pool-cpp-Debug'
+[ 93%] Performing install step for 'thread-pool-cpp-Debug'
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/thread_pool.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/worker.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/fixed_function.hpp
+-- Up-to-date: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/include/thread_pool/mpsc_bounded_queue.hpp
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/lib/cmake/thread-pool-cpp/thread-pool-cppConfig.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/lib/cmake/thread-pool-cpp/thread-pool-cppConfigVersion.cmake
+-- Installing: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/Install/lib/cmake/thread-pool-cpp/thread-pool-cppTargets.cmake
+loading initial cache file /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp/args.cmake
+[100%] Completed 'thread-pool-cpp-Debug'
+[100%] Built target thread-pool-cpp-Debug
+-- [hunter] Build step successful (dir: /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Build/thread-pool-cpp)
+-- [hunter] Cache saved: /home/kirill2000/.hunter/_Base/Cache/raw/773928c3473ce574f1b57e13cc304bfd89716d27.tar.bz2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill2000/LABA9/cmake-build-debug
