@@ -56,8 +56,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.template" />
       <item itemvalue="Google Test.tests" />
+      <item itemvalue="CMake Application.template" />
     </list>
   </component>
   <component name="SvnConfiguration">
