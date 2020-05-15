@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kirill2000/LABA9/sources/source.cpp" "/home/kirill2000/LABA9/cmake-build-debug/CMakeFiles/template.dir/sources/source.cpp.o"
+  "/home/kirill2000/Lab9/sources/source.cpp" "/home/kirill2000/Lab9/cmake-build-debug/CMakeFiles/template.dir/sources/source.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

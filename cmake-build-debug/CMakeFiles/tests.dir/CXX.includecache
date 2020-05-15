@@ -20172,9 +20172,7 @@ thread
 ./mpsc_bounded_queue.hpp
 /home/kirill2000/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install/include/thread_pool/mpsc_bounded_queue.hpp
 
-/home/kirill2000/LABA9/tests/test.cpp
-gtest/gtest.h
--
+/home/kirill2000/Lab9/tests/test.cpp
 gtest/gtest.h
 -
 header.hpp

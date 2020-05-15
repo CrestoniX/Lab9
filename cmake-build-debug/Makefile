@@ -48,10 +48,10 @@ RM = /home/kirill2000/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirill2000/LABA9
+CMAKE_SOURCE_DIR = /home/kirill2000/Lab9
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirill2000/LABA9/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kirill2000/Lab9/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,17 +67,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/kirill2000/clion-2020.1/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -89,11 +78,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/home/kirill2000/clion-2020.1/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirill2000/LABA9/cmake-build-debug/CMakeFiles /home/kirill2000/LABA9/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirill2000/Lab9/cmake-build-debug/CMakeFiles /home/kirill2000/Lab9/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirill2000/LABA9/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kirill2000/Lab9/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,19 +122,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named template
-
-# Build rule for target.
-template: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 template
-.PHONY : template
-
-# fast build rule for target.
-template/fast:
-	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/build
-.PHONY : template/fast
-
-#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -147,12 +134,39 @@ tests/fast:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+#=============================================================================
+# Target rules for targets named localTest
+
+# Build rule for target.
+localTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 localTest
+.PHONY : localTest
+
+# fast build rule for target.
+localTest/fast:
+	$(MAKE) -f CMakeFiles/localTest.dir/build.make CMakeFiles/localTest.dir/build
+.PHONY : localTest/fast
+
+#=============================================================================
+# Target rules for targets named template
+
+# Build rule for target.
+template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 template
+.PHONY : template
+
+# fast build rule for target.
+template/fast:
+	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/build
+.PHONY : template/fast
+
 sources/source.o: sources/source.cpp.o
 
 .PHONY : sources/source.o
 
 # target to build an object file
 sources/source.cpp.o:
+	$(MAKE) -f CMakeFiles/localTest.dir/build.make CMakeFiles/localTest.dir/sources/source.cpp.o
 	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/sources/source.cpp.o
 .PHONY : sources/source.cpp.o
 
@@ -162,6 +176,7 @@ sources/source.i: sources/source.cpp.i
 
 # target to preprocess a source file
 sources/source.cpp.i:
+	$(MAKE) -f CMakeFiles/localTest.dir/build.make CMakeFiles/localTest.dir/sources/source.cpp.i
 	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/sources/source.cpp.i
 .PHONY : sources/source.cpp.i
 
@@ -171,6 +186,7 @@ sources/source.s: sources/source.cpp.s
 
 # target to generate assembly for a file
 sources/source.cpp.s:
+	$(MAKE) -f CMakeFiles/localTest.dir/build.make CMakeFiles/localTest.dir/sources/source.cpp.s
 	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/sources/source.cpp.s
 .PHONY : sources/source.cpp.s
 
@@ -208,10 +224,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... tests"
+	@echo "... localTest"
 	@echo "... template"
 	@echo "... test"
-	@echo "... tests"
-	@echo "... edit_cache"
 	@echo "... sources/source.o"
 	@echo "... sources/source.i"
 	@echo "... sources/source.s"

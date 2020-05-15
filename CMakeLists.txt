@@ -51,6 +51,8 @@ add_executable(tests
   # TODO: enum your files and delete this comment
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
 )
+add_executable(localTest
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp)
 
 # TODO: change template word to project name and delete this comment
 target_include_directories(template 
@@ -59,6 +61,8 @@ target_include_directories(template
 target_include_directories(tests 
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
+target_include_directories(localTest
+        PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 target_link_libraries(template
         ${CMAKE_THREAD_LIBS_INIT}
@@ -72,6 +76,15 @@ target_link_libraries(template
 
 # TODO: change template word to project name and delete this comment
 target_link_libraries(tests GTest::main template)
+target_link_libraries(localTest
+        ${CMAKE_THREAD_LIBS_INIT}
+        Boost::thread
+        Boost::filesystem
+        Boost::system
+        Boost::program_options
+        Beast::Beast
+        gumbo::gumbo
+        thread-pool-cpp::thread-pool-cpp)
 
 enable_testing()
 add_test(NAME unit_tests COMMAND tests) 

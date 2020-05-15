@@ -1,8 +1,7 @@
 // Copyright 2020 by CrestoniX
-
 #include <header.hpp>
 #include <gumbo.h>
-
+const size_t TASK_SIZE = 128;
 using boost::program_options::options_description;
 using boost::program_options::variables_map;
 using boost::program_options::error;
@@ -12,10 +11,10 @@ using boost::program_options::value;
 
 void startParse(URL& url, io_context& ioContext,
                 tp::ThreadPool<
-                tp::ThreadPoolSettings<128>
+                tp::ThreadPoolSettings<TASK_SIZE>
                 >& threadPool1,
                 tp::ThreadPool<
-                tp::ThreadPoolSettings<128>
+                tp::ThreadPoolSettings<TASK_SIZE>
                 >& threadPool2,
                 std::ofstream& outputFile);
 
@@ -24,10 +23,10 @@ void parseRecursively(
         io_context& ioContext,
         std::ofstream& outputFile,
         tp::ThreadPool<
-        tp::ThreadPoolSettings<128>
+        tp::ThreadPoolSettings<TASK_SIZE>
         >& threadPool1,
         tp::ThreadPool<
-        tp::ThreadPoolSettings<128>
+        tp::ThreadPoolSettings<TASK_SIZE>
         >& threadPool2){
     auto node = *reinterpret_cast<GumboNode*>(output);
     if (node.type == GUMBO_NODE_ELEMENT) {
@@ -70,7 +69,8 @@ void parseRecursively(
                                         .element
                                         .attributes
                                         .data[i])).name,
-                        "href") != 0){
+                        "href") != 0)
+              {
                     URL url((*reinterpret_cast<
                             GumboAttribute*
                             >(node
@@ -100,10 +100,10 @@ void parseRecursively(
 }
 void startParse(URL& url, io_context& ioContext,
                 tp::ThreadPool<
-                tp::ThreadPoolSettings<128>
+                tp::ThreadPoolSettings<TASK_SIZE>
                 >& threadPool1,
                 tp::ThreadPool<
-                tp::ThreadPoolSettings<128>
+                tp::ThreadPoolSettings<TASK_SIZE>
                 >& threadPool2,
                 std::ofstream& outputFile){
     tcp::resolver resolver(ioContext);
@@ -120,7 +120,7 @@ void startParse(URL& url, io_context& ioContext,
     std::ostringstream os;
     os << boost::beast::make_printable(buffer.data());
     std::string s = os.str();
-    GumboOutput* output = gumbo_parse(s.c_str());
+    GumboOutput* output = gumbo_parse(s.c_str()); // перевод в дерево разбора
     auto childrenCount = output->root->v.element.children.length;
     for (auto i = 0u; i < childrenCount; ++i) {
         threadPool1.process([
@@ -145,7 +145,8 @@ void startParse(URL& url, io_context& ioContext,
 }
 int main(int argc, char* argv[]){
     try {
-        options_description desc{"Options"};
+        options_description desc{"Options"}; // обеспечивает удобный интерфейс для
+                                             // добавления новой опции и поиска по имени
         desc.add_options()
                 ("url",
                  value<std::string>()->required(),

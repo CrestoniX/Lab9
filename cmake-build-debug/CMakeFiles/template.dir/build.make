@@ -43,10 +43,10 @@ RM = /home/kirill2000/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirill2000/LABA9
+CMAKE_SOURCE_DIR = /home/kirill2000/Lab9
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirill2000/LABA9/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kirill2000/Lab9/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/template.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/template.dir/flags.make
 
 CMakeFiles/template.dir/sources/source.cpp.o: CMakeFiles/template.dir/flags.make
 CMakeFiles/template.dir/sources/source.cpp.o: ../sources/source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill2000/LABA9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/template.dir/sources/source.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/template.dir/sources/source.cpp.o -c /home/kirill2000/LABA9/sources/source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill2000/Lab9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/template.dir/sources/source.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/template.dir/sources/source.cpp.o -c /home/kirill2000/Lab9/sources/source.cpp
 
 CMakeFiles/template.dir/sources/source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/template.dir/sources/source.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill2000/LABA9/sources/source.cpp > CMakeFiles/template.dir/sources/source.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill2000/Lab9/sources/source.cpp > CMakeFiles/template.dir/sources/source.cpp.i
 
 CMakeFiles/template.dir/sources/source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/template.dir/sources/source.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill2000/LABA9/sources/source.cpp -o CMakeFiles/template.dir/sources/source.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill2000/Lab9/sources/source.cpp -o CMakeFiles/template.dir/sources/source.cpp.s
 
 # Object files for target template
 template_OBJECTS = \
@@ -80,7 +80,7 @@ template_EXTERNAL_OBJECTS =
 libtemplated.a: CMakeFiles/template.dir/sources/source.cpp.o
 libtemplated.a: CMakeFiles/template.dir/build.make
 libtemplated.a: CMakeFiles/template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kirill2000/LABA9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtemplated.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kirill2000/Lab9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtemplated.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/template.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/template.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/template.dir/clean:
 .PHONY : CMakeFiles/template.dir/clean
 
 CMakeFiles/template.dir/depend:
-	cd /home/kirill2000/LABA9/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirill2000/LABA9 /home/kirill2000/LABA9 /home/kirill2000/LABA9/cmake-build-debug /home/kirill2000/LABA9/cmake-build-debug /home/kirill2000/LABA9/cmake-build-debug/CMakeFiles/template.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kirill2000/Lab9/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirill2000/Lab9 /home/kirill2000/Lab9 /home/kirill2000/Lab9/cmake-build-debug /home/kirill2000/Lab9/cmake-build-debug /home/kirill2000/Lab9/cmake-build-debug/CMakeFiles/template.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/template.dir/depend
 
